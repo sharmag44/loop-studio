@@ -1,6 +1,7 @@
 body{
     box-sizing:border-box;
     font-size:15px;
+    overflow-x:hidden;
 }
 h1{
     font-family: 'Alata', sans-serif;
@@ -22,9 +23,9 @@ h2{
 }
 .slogan
 {
-    padding:1% 3% 1% 3%;
+    padding:5%;
     color:#fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     width:25%;
     border:3px solid #fff;
     border-radius:1rem;
@@ -40,12 +41,13 @@ nav ul{
     width: 50%;
     list-style-type:none;
     margin-left:45%;
+    opacity: 0.7;
 
 }
 nav ul li
 {
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight:bolder;
 }
 
@@ -53,12 +55,23 @@ nav ul li a
 {
      display: block;
      padding: 0.1em;
-       
+           
 }
 .middle-section{
     height: 500px;
+    background-image: url("images/desktop/image-interactive.jpg");
+    background-repeat: no-repeat;
+    background-position: 45%;
 }
 
+.container{
+    display:grid;
+    
+}
+
+/* .end-section{
+    
+} */
 
 
 .footer-section
