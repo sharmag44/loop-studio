@@ -61,9 +61,22 @@ nav ul li a
     height: 500px;
     background-image: url("images/desktop/image-interactive.jpg");
     background-repeat: no-repeat;
-    background-position: 45%;
+    background-position: 20%;
+    background-size:600px  500px;
 }
-
+.title{
+    text-align:right;
+    margin-right: 11%;
+}
+.details{
+    background-color: #fff;
+    position: absolute;
+    left:830px;
+    width:30%;
+}
+#part{
+margin-top:10%;
+}
 .container{
     display:grid;
     
@@ -72,7 +85,6 @@ nav ul li a
 /* .end-section{
     
 } */
-
 
 .footer-section
 {
