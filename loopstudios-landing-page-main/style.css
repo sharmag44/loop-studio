@@ -58,38 +58,44 @@ nav ul li a
            
 }
 .middle-section{
+    position: relative;
+    width:600px;
+    margin:50px 180px; 
+}
+
+.vr-boy{
     height: 500px;
-    background-image: url("images/desktop/image-interactive.jpg");
-    background-repeat: no-repeat;
-    background-position: 20%;
-    background-size:600px  500px;
+    width: 100%;
 }
-.title{
-    text-align:right;
-    margin-right: 11%;
+
+#part 
+{
+  position:absolute;
+  left: 500px;
+  width: 300px;
+  top:150px;
+  background-color: #fff;
+  padding-left:70px;
+
+
+
 }
-.details{
-    background-color: #fff;
-    position: absolute;
-    left:830px;
-    width:30%;
-}
-#part{
-margin-top:10%;
-}
+
+
+
 .container{
     
     display:grid;
     grid-template-rows:400px 100px 400px 100px 400px;
     grid-template-columns:400px 50px 400px 50px 400px;
+    box-sizing: border-box;
+    border-radius: 4%;;
     
     
 }
 
 
-/* .end-section{
-    
-} */
+
 
 .footer-section
 {
