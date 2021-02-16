@@ -7,7 +7,7 @@ h1{
     font-family: 'Alata', sans-serif;
     
 }
-h2{
+h2,p{
     font-family: 'Josefin Sans', sans-serif;
 }
 .header
@@ -60,7 +60,7 @@ nav ul li a
 .middle-section{
     position: relative;
     width:600px;
-    margin:50px 180px; 
+    margin:200px 0 0 100px; 
 }
 
 .vr-boy{
@@ -71,28 +71,44 @@ nav ul li a
 #part 
 {
   position:absolute;
-  left: 500px;
+  left: 470px;
   width: 300px;
-  top:150px;
+  top:240px;
   background-color: #fff;
-  padding-left:70px;
-
+  padding: 0 100px 0 150px;
+  
 
 
 }
 
+.title{
+    font-size: 35px;
+}
 
-
+.details{
+ font-size:18px;
+}
+.end-portion{
+    margin:100px 0 0 0;
+    position: relative;
+}
+ .our{
+     font-weight: bolder;
+     font-size:2.5rem;
+     margin-left:7.5%;
+ }
+ .see{
+     position: absolute;
+ }
 .container{
     
     display:grid;
-    grid-template-rows:400px 100px 400px 100px 400px;
-    grid-template-columns:400px 50px 400px 50px 400px;
-    box-sizing: border-box;
-    border-radius: 4%;;
-    
+    grid-template-rows:400px  400px  400px;
+     grid-template-columns:400px 400px 400px;
+     grid-gap:100px 100px;
     
 }
+
 
 
 
